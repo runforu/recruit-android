@@ -17,6 +17,9 @@
         android:theme="@style/Theme.Transactions"
         tools:replace="android:appComponentFactory">
         <activity
+            android:name=".activities.DetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.MainActivity"
             tools:ignore="Instantiatable">
             <intent-filter>
@@ -26,4 +29,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

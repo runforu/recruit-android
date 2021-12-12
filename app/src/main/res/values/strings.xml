@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Transactions</string>
+    <string name="income">Income: </string>
+    <string name="expenditure">Expenditure: </string>
+    <string name="gst">gst: </string>
 </resources>
